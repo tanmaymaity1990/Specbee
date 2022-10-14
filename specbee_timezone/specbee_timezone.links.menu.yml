@@ -1,0 +1,6 @@
+specbee_timezone.timezone_admin_settings_form:
+  title: 'Timezone Settings'
+  route_name: specbee_timezone.timezone_admin_settings_form
+  description: 'Configure the location and timezone.'
+  parent: system.admin_config_system
+  weight: 99

@@ -1,0 +1,10 @@
+# Administration settings.
+specbee_timezone.timezone_admin_settings_form:
+  path: '/admin/config/system/set_time_zone'
+  defaults:
+    _form: '\Drupal\specbee_timezone\Form\TimeZoneAdminSettingsForm'
+    _title: 'Timezone Setting Form'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

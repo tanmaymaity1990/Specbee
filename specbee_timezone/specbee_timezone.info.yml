@@ -1,0 +1,6 @@
+name: "Specbee Assignment"
+type: module
+description: "Provides a current date and time based on timezone specific."
+package: Custom
+core_version_requirement: ^9
+version: 1.0.0
